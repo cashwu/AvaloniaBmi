@@ -11,8 +11,10 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void ResultClick(object? sender, RoutedEventArgs e)
+    private void ResultClick(object sender, RoutedEventArgs e)
     {
+        Console.WriteLine(456);
+
         double.TryParse(TxtHeight.Text, out var height);
         double.TryParse(TxtWeight.Text, out var weight);
 
