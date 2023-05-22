@@ -23,4 +23,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AvaloniaAppBmi2\AvaloniaAppBmi2.csproj" />
+    </ItemGroup>
+
 </Project>
