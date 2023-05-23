@@ -25,6 +25,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\AvaloniaAppBmi2\AvaloniaAppBmi2.csproj" />
+      <ProjectReference Include="..\AvaloniaAppBmi\AvaloniaAppBmi.csproj" />
     </ItemGroup>
 
 </Project>
